@@ -2,8 +2,8 @@ const {map, editableLayers} = generate_map('./zones.json')
 setup_editing(map, editableLayers);
 
 function generate_map(zones_url) {
-    const osm_url = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    const osmAttrib = '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+    const osm_url = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+    const osmAttrib = '&copy; OpenStreetMap contributors &copy; CARTO';
     const osm = L.tileLayer(osm_url, {maxZoom: 18, attribution: osmAttrib});
     const map = L.map('map', {layers: [osm], center: [52.96523540264812, 6.52002831753822], zoom: 13});
 
