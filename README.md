@@ -1,10 +1,11 @@
-> ⚠️ **Deprecation Notice**
+> 🚀 **Project Revived!**
 >
-> This project is no longer actively maintained.  
-> No further updates, bug fixes, or security patches will be provided.
-> Use at your own risk — issues and pull requests may not receive a response.
+> This repository is a fork of the original Polygonal Zones Add-on, which is no longer maintained. I decided to take on this project because I personally had a huge need for exactly this software in my own Home Assistant setup. So, I created this fork to fix the broken map (switching to CartoDB) and to keep this awesome tool alive for everyone in the community.
 >
-> Please consider using alternative or updated solutions for future development.
+> **A quick note:** I am relatively new to programming and am using this project to learn and grow. I will do my best to maintain this add-on, keep things working, and maybe even tackle the TODO list over time!
+>
+> 🤝 **Contributions welcome:** Since I'm still learning, I highly appreciate any help! If you are a more experienced developer and have suggestions, or if you want to submit a Pull Request to improve the code, please feel free to do so. Let's build and learn together!
+
 
 
 # Polygonal zones addon.
